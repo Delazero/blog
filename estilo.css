@@ -36,11 +36,11 @@ ul img{
 }
 
 /*Sobre*/
-#sobre{
+article#sobre{
 	margin-top: 8vw;
 	width: 100vw;
 	background-color: #fafafa;
-	height: 80vh;
+	height: 85vh;
 }
 #banner{
 	background-image: url("imagens/bann.png");
@@ -69,4 +69,44 @@ ul img{
 	font-weight: bold;
 	font-size: 1.1vw;
 }
+
 /*Galeria com Flex-Box*/
+
+article#galeria{
+	width: 100vw;
+	height: 100vh;
+	background-color: #fafafa;
+}
+article#galeria header{
+	width: 100vw;
+	height: 25vh;
+	background-color: #3333ff;
+}
+article#galeria header h1{
+	font-family: 'Arial', sans-serif;
+	font-weight: bold;
+	font-size: 1.5vw;
+	text-align: center;
+	padding: 5.5vw 0 3.6vw 0;
+	color: white;
+}
+.gallery {
+	display: -ms-flexbox;
+	flex-wrap: wrap;
+	flex-direction: column;
+	flex-flow: row wrap; 
+	display: box;
+	display: flex;
+	margin: -0.19em;
+}
+.gallery-item {
+  -webkit-box-flex: auto;
+  flex: auto;
+  width: calc(33.33% - 0.38em);
+  margin: 0.19em;
+  
+}
+.gallery img {
+  width: 100%;
+  height: auto;	
+}
