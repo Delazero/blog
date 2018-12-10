@@ -36,7 +36,7 @@ ul img{
 }
 
 /*Sobre*/
-article#sobre{
+section#sobre{
 	margin-top: 8vw;
 	width: 100vw;
 	background-color: #fafafa;
@@ -58,31 +58,34 @@ article#sobre{
 	padding: 3.6vw 0 3.6vw 0;
 	color: black;
 }
-#texto{
+article#texto{
 	width: 75vw;
 	text-align: justify;
 	margin: 5vw 0 0 16vw;
 }
-#texto p{
+article#texto p{
+	text-indent: 1vw;
+	line-height: 1.5;
 	margin-left: 36vw;
 	font-family: 'Arial', sans-serif;
-	font-weight: bold;
+	margin: 1%;
+	color: #404040;
 	font-size: 1.1vw;
 }
 
 /*Galeria com Flex-Box*/
 
-article#galeria{
+section#galeria{
 	width: 100vw;
-	height: 100vh;
+	height: 130vh;
 	background-color: #fafafa;
 }
-article#galeria header{
+section#galeria header{
 	width: 100vw;
 	height: 25vh;
 	background-color: #3333ff;
 }
-article#galeria header h1{
+section#galeria header h1{
 	font-family: 'Arial', sans-serif;
 	font-weight: bold;
 	font-size: 1.5vw;
@@ -109,4 +112,59 @@ article#galeria header h1{
 .gallery img {
   width: 100%;
   height: auto;	
+}
+
+/* Apresentacao */
+
+section#apresentacao{
+	width: 100vw;
+	height: 115vh;
+	background-color: #fafafa;
+}
+section#apresentacao header{
+	width: 100vw;
+	height: 25vh;
+	background-color: #3333ff;
+}
+section#apresentacao header h1{
+	font-family: 'Arial', sans-serif;
+	font-weight: bold;
+	font-size: 1.5vw;
+	text-align: center;
+	padding: 5.5vw 0 3.6vw 0;
+	color: white;
+}
+
+/* video */
+
+video{
+	margin: 6vw 0 3vw 25vw;
+	width: 50vw;
+}
+section#apresentacao p{
+	font-family: 'Arial', sans-serif;
+	text-indent: 1vw;
+	padding-left: 2%;
+	padding-right: 10%;
+	line-height: 1;
+	font-size: 1.5vw;
+	margin: 1%;
+	color: #666666;
+	text-align: justify;
+}
+
+/* rodape */
+
+footer{
+	width: 100vw;
+	height: 10vh;
+	background-color: #666666;
+	clear: both;
+}
+footer h3{
+	font-family: 'Arial', sans-serif;
+	color: #ffffff;
+	font-size: 1.2vw;
+	text-align: center;
+	padding-top: 2vw;
 }
