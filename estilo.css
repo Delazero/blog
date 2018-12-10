@@ -21,7 +21,7 @@ li{
     font-family: 'Arial', sans-serif;
     font-weight: bold;
     font-size: 2vw;
-    padding: 3.6vw 2.5vw;
+    padding: 3.3vw 2.5vw;
 }
 li a{
     display: block;
@@ -131,8 +131,7 @@ section#apresentacao header h1{
     text-align: center;
     padding: 5.5vw;
     color: white;
-}
-
+}	
 /* video */
 
 video{
@@ -166,13 +165,13 @@ footer h3{
     padding: 2%;
 }
 /* Breakpoints */
-@media (max-width: 1000px){
+@media screen and (max-width: 1000px){
     li{
         font-size: 2.5vw;
         
     }
     section#sobre h1{
-        padding-top: 7vw;
+        padding-top: 13%;
     }
     section#sobre p{
         font-size: 2vw;
@@ -188,13 +187,12 @@ footer h3{
     }
 }
 
-@media (max-width: 320px){
+@media screen and (max-width: 320px){
     li{
         font-size: 4vw;
     }
     section#sobre h1{
         font-size: 1.4vw;
-        padding-top: 10vw;
     }
     section#sobre #banner{
         padding: 0 80vw 68vw 0;
@@ -228,10 +226,10 @@ footer h3{
         margin-bottom: 5vw;
     }
 }
-@media (max-width: 450px){
+@media screen and (max-width: 450px){
     li{
         font-size: 3vw;
-        padding: 4vw 2.5vw;
+        padding: 5vw 2.5vw;
     }
     section#sobre #banner{
         padding: 0 80vw 68vw 0;
@@ -253,4 +251,20 @@ footer h3{
         width: calc(33.33% - 0.38em);
         margin: 0.19em;
     }
+	ul img {
+		padding-top: 0;
+	}
+}
+@media screen and (max-width: 700px){
+	footer h3{
+		font-size: 1.8vw;
+	}
+    section#sobre h1, section#galeria header h1, section#apresentacao header h1 {
+        font-size: 2vw;
+    }
+	ul img {
+		padding: 0.5% 3%;
+		max-width: 90px;
+		padding-top: 15%;
+	}
 }
